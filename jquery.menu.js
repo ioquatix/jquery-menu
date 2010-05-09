@@ -20,7 +20,7 @@
 jQuery.fn.menu = function (options) {
 	options = options || {};
 	var itemSelector = options.item || 'li';
-	var menuSelector = options.menu || '.submenu';
+	var menuSelector = options.menu || '.menu';
 	
 	var showFunction = options.show || function(menu, first) {
 		menu.fadeIn(200);
